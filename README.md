@@ -10,7 +10,7 @@
 Desafio do site frontendmentor concluído.
 
 
-Tecnologias ultilizadas : HTML5, FLEXBOX e GRID.z
+Tecnologias ultilizadas : HTML5, FLEXBOX e GRID.
 
 
 ### Demonstração:
