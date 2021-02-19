@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+section {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_page {
+    padding: 20px 0;
+}
+
+.center_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.icons_media {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.info {
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 38px;
+}
+
+.info h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 39px;
+    margin: 33px 0;
+}
+
+.info p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+.info button {
+    margin-top: 20px;
+    padding: 10px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+}
+
+.info button:hover {
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.illustration_page img {
+    width: 100%;
+}
+
+.icons_media {
+    margin-right: 72px;
+}
+
+.icons_media a {
+    margin-right: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+}
+
+.icons_media a i {
+    height: 15px;
+    width: 15px;
+    text-align: center;
+}
+
+.icons_media a:hover {
+    border: 1px solid hsl(300, 69%, 71%);
+    color:hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        padding: 0 43px;
+    }
+
+    .center_section {
+        display: block;
+    }
+
+    .logo_page img {
+        max-width: 107px;
+    }
+
+    .info {
+        text-align: center;
+        margin: 0;
+    }
+
+    .info h1 {
+        margin: 21px 0;
+        font-size: 24px;
+    }
+
+    .info p {
+        font-size: 15px;
+    }
+
+    .info button {
+        font-size: 13px;
+        width: 175px;
+    }
+
+    .icons_media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .icons_media a {
+        margin-left: 10px;
+    }
+
+    
+}
